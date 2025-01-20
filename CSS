@@ -1,0 +1,93 @@
+/* Основной стиль */
+body {
+  margin: 0;
+  font-family: 'Cinzel', serif;
+  color: #fff;
+  background: url('assets/background.jpg') no-repeat center center/cover;
+}
+
+/* Шапка */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+header .logo {
+  width: 120px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+nav button {
+  background: #6a0dad;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Главная секция */
+.hero {
+  text-align: center;
+  padding: 5rem 2rem;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+/* Галерея NFT */
+.nft-gallery {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.nft-gallery img {
+  width: 150px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+}
+
+/* Футер */
+footer {
+  text-align: center;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+footer p {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.social-icons img {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  cursor: pointer;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
